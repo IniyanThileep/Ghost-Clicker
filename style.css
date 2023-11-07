@@ -1,0 +1,104 @@
+#container{
+	background-color: #F9F3EC;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+
+	padding: 10px;
+}
+
+#backImage {
+    background-image:url("neon.jpg");
+	height: 600px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+#ghost {
+	left: 5%;
+	top: 20%;
+	position: relative;
+	cursor: crosshair;
+	color: wheat;
+}
+button{
+	border-style: hidden;
+	border-width: thin;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: Calibri;
+	text-decoration: none;
+	background-color: #3640c9;
+	color: #FFFFFF;
+	position:relative;
+}
+button:hover{
+	border-style: hidden;
+	border-width: thin;
+	border-radius: 5px;
+	background-color: #FF9999;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#scoreLabel{
+	font-size: large;
+	color: #C8275C;
+	font-weight: bold;
+	font-family: Calibri;
+	position: relative;
+}
+#score{
+	padding: 10px;
+	margin-left: 500px;
+	font-size: 20px;
+	position: relative;
+	color: #000000;
+	font-family: Calibri;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #3640c9;
+	padding-left: 10px;
+	color: white;
+	font-family: Calibri;
+}
+
+a {
+	font-family: Calibri;
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	font-family: Calibri;
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	border-style: hidden;
+	border-width: thin;
+	background-color: #FFA8AE;
+	color: #FFFFFF;
+
+}
+h1 {
+	font-family: Calibri;
+	color: #333333;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+body {
+	background-image: url(neon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
